@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>template Engine</title>
+        <!-- BootstrapのCSS読み込み -->
+        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- jQuery読み込み -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+       <!-- BootstrapのJS読み込み -->
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <!-- UnserScoreのJS読み込み -->
+        <script type="text/javascript" src="./js/underscore-min.js"></script>
+        <script type="text/javascript" src="./js/templateEngine.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Template Engine</h1>
+            <div>
+                <button id="btnCreate" class="btn btn-primary btn-lg">create</button>
+                <button id="btnSave" class="btn btn-success btn-lg">Save</button>
+                <button id="btnLoad" class="btn btn-warning btn-lg">Load</button>
+            </div>
+            <div class="form-group">
+                <span class="input-group-addon">template</span>
+                <textarea id="txtTemplate" class="form-control" cols="100" rows="20"></textarea>
+            </div>
+            <div class="form-group">
+                <span class="input-group-addon">data</span>
+                <textarea id="txtData" class="form-control" cols="100" rows="20"></textarea>
+            </div>
+            <div class="form-group">
+                <span class="input-group-addon">result</span>
+                <textarea id="txtResult" class="form-control" cols="100" rows="20"></textarea>
+            </div>
+        </div>
+    </body>
+</html>
